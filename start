@@ -1,0 +1,5 @@
+# python3 -m venv mp_env && source mp_env/bin/activate
+# pip3 install opencv-contrib-python
+# pip install mediapipe
+source mp_env/bin/activate
+python3 hand.py
