@@ -1,5 +1,13 @@
+For windows
+#python -m venv mp_env && ./mp_env/Scripts/activate
+#pip install opencv-contrib-python mediapipe
+./mp_env/Scripts/activate
+python handTrack.py
+
+
+For MacOS
 # python3 -m venv mp_env && source mp_env/bin/activate
 # pip3 install opencv-contrib-python
 # pip install mediapipe
 source mp_env/bin/activate
-python3 hand.py
+python3 handTrack.py
